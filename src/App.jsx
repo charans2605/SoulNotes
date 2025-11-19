@@ -90,12 +90,7 @@ export default function App(){
                 <EditPost posts={posts} onUpdate={updatePost} setThemeMood={setThemeMood} />
               </ProtectedRoute>
             } />
-
-            {/* <Route path="/welcome" element={<Welcome />} />
-            <Route path='/' element={<Home posts={posts} setThemeMood={setThemeMood} />} />
-            <Route path='/create' element={<CreatePost onCreate={addPost} setThemeMood={setThemeMood} />} />
-            <Route path='/post/:id' element={<PostView posts={posts} onDelete={deletePost} setThemeMood={setThemeMood} />} />
-            <Route path='/edit/:id' element={<EditPost posts={posts} onUpdate={updatePost} setThemeMood={setThemeMood} />} /> */}
+            
             <Route path='*' element={<NotFound />} />
           </Routes>
         </main>
