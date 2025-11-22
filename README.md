@@ -1,6 +1,6 @@
-# SoulNotes – Mood-Based Personal Journal Web Application
+# SoulNotes – Emotion-Responsive Digital Diary Web Application
 
-SoulNotes is a mood-based journaling web application built using React and Vite.  
+SoulNotes is a Emotion-Responsive Digital Diary web application built using React and Vite.  
 It enables users to create, manage, and revisit personal memories based on their mood.  
 The application provides a clean user interface, dynamic themes, and a simple authentication flow using LocalStorage.
 
@@ -10,7 +10,7 @@ The application provides a clean user interface, dynamic themes, and a simple au
 
 - User authentication system (Register, Login, Logout)  
 - Create, edit, and delete journal posts  
-- Mood-based color themes and UI personalization  
+- Emotion-based color themes and UI personalization  
 - Search and filter functionality for posts  
 - Protected routes using a custom authentication wrapper  
 - LocalStorage-based data persistence  
@@ -36,7 +36,7 @@ Users can register and log in using a LocalStorage-based system.
 
 After logging in, users are welcomed with a dedicated welcome screen before accessing the home page.
 
-The home page displays all posts and allows filtering based on user-selected mood categories.
+The home page displays all posts and allows filtering based on user-selected emotion categories.
 
 The application supports CRUD operations: creating, reading, updating, and deleting posts.
 
