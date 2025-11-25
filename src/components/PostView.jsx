@@ -17,6 +17,7 @@ export default function PostView({ posts, onDelete, setThemeMood }){
           <span className='mood'>
             {MOODS[post.mood]?.emoji} {MOODS[post.mood]?.label}
           </span>
+          <span>   </span>
           <small>{new Date(post.createdAt || post.id*1).toLocaleString()}</small></div>
       </div>
 

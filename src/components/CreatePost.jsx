@@ -88,7 +88,7 @@ export default function CreatePost({ onCreate, setThemeMood }){
             ))}
           </div>
           <div className='form-actions'>
-            <button className='btn primary' type='submit'>Publish</button>
+            <button className='btn primary' type='submit'>Post</button>
             <Link to='/' className='btn'>Cancel</Link>
           </div>
         </div>
